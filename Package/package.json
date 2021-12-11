@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "name": "proyectocodernuevo",
+  "version": "1.0.0", 
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "compile:sass": "sass --watch scss/style.scss css/estilos.css"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,22 @@
+$brown2: #bb2424;
+
+
+
+body{
+    background-color: brown;   
+    font-style: italic
+}
+
+.contenido{
+    height: 60%;
+    border-radius: 1em;
+    margin: 1em;
+    background-color: $brown2;
+    border: white 3px solid
+}
+
+
+    @import "_dondenosencontras.scss" ;
+    @import "_header.scss" ;
+    @import  "_inicio.scss" ;
+    @import "_nosotros.scss"
